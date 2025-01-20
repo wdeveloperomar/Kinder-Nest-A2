@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background:  #F7F7F7;
+}
+
 a {
     text-decoration: none;
     display: inline-block
@@ -127,7 +131,16 @@ nav {
 
 /* banner styles */
 
+.banner {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
 .banner-left-content {
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -137,7 +150,7 @@ nav {
 .banner-left-content h1 {
     color:  #111;
     font-family: Quicksand;
-    font-size: 56px;
+    font-size: 3.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: 61px;
@@ -177,6 +190,13 @@ nav {
     line-height: 30px; /* 150% */
 }
 
+.banner-right-content  {
+    width: 45%;
+}
+.banner-right-content img {
+    width: 100%;
+}
+
 
 
 /* responsive style for mobile */
@@ -208,6 +228,57 @@ nav {
 
     .menu-bars {
         display: block;
+    }
+
+
+
+    /* banner styles */
+    .banner {
+       flex-direction: column-reverse;
+        gap: 20px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+    
+    }
+
+    .banner-left-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        text-align: center;
+    }
+
+    .banner-left-content h1 {
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+    }
+
+    .banner-left-content p {
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .enroll-now-button {
+        padding: 6px 24px;
+        border-radius: 8px;
+        color: #FFF;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px; /* 187.5% */
+
+    }
+
+    .banner-right-content  {
+        width: 100%;
     }
   }
 

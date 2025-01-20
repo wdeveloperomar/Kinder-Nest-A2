@@ -198,6 +198,210 @@ nav {
 }
 
 
+/* curriculum section styles */
+.curriculum-section {
+    padding: 60px 0;
+    background: url('./assets/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+.curriculum-section h2 {
+    color: #000;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57.5px; /* 125% */
+}
+
+.curriculum-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.curriculum-content-1 {
+    display: flex;
+    padding: 52.819px 40.668px 53.762px 40.878px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32.069px;
+    flex-shrink: 0;
+    border-radius: 18.864px;
+    border: 0.943px solid #DEF5FF;
+    background: linear-gradient(180deg, #DEF5FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+}
+
+.curriculum-content-1 h3 {
+    color: #202020;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 24.523px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30.654px; /* 125% */
+}
+.curriculum-content-1 p {
+    color: #808080;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 15.091px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.296px; /* 187.5% */
+}
+.curriculum-content-1 a {
+    color: #64C8FF;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 15.091px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28.296px; /* 187.5% */
+    transition: 0.2s;
+}
+
+.curriculum-content-1 a:hover {
+    text-shadow: 2px 2px 10px #64c9ff;
+}
+
+
+.curriculum-content-2 {
+    display: flex;
+    padding: 52.819px 40.668px 53.762px 40.878px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32.069px;
+    flex-shrink: 0;
+    border-radius: 18.864px;
+    border: 0.943px solid #FFF4DC;
+    background: linear-gradient(180deg, #FFF4DC 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+}
+
+.curriculum-content-2 h3 {
+    color: #202020;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 24.523px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30.654px; /* 125% */
+}
+.curriculum-content-2 p {
+    color: #808080;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 15.091px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.296px; /* 187.5% */
+}
+.curriculum-content-2 a {
+    color: #F0AA00;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 15.091px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28.296px; /* 187.5% */
+    transition: 0.2s;
+}
+
+.curriculum-content-2 a:hover {
+    text-shadow: 2px 2px 10px #f0a800b4;
+}
+
+.curriculum-content-3 {
+    display: flex;
+    padding: 52.819px 40.668px 53.762px 40.878px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32.069px;
+    flex-shrink: 0;
+    border-radius: 18.864px;
+    border: 0.943px solid #F2E8FF;
+    background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+}
+
+.curriculum-content-3 h3 {
+    color: #202020;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 24.523px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30.654px; /* 125% */
+}
+.curriculum-content-3 p {
+    color: #808080;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 15.091px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.296px; /* 187.5% */
+}
+.curriculum-content-3 a {
+    color: #8700FF;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 15.091px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28.296px; /* 187.5% */
+    transition: 0.2s;
+}
+.curriculum-content-3 a:hover {
+    text-shadow: 2px 2px 10px #8800ffb0;
+}
+
+.slider-button-container{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-button-container button {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    padding: 17px 0px 19px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background:  #FEA301;
+    color: #FFF;
+    text-align: center;
+    font-family: "Font Awesome 5 Free";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px; /* 100% */
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.slider-button-container button:hover {
+   
+    background:  #c98003;
+}
+
+
 
 /* responsive style for mobile */
 @media only screen and (max-width: 576px) {

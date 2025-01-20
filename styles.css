@@ -23,6 +23,8 @@ a {
 
 
 /* header section styles */
+
+/* navbar styles */
 nav {
     display: flex;
      justify-content: space-between;
@@ -123,14 +125,71 @@ nav {
 }
 
 
+/* banner styles */
+
+.banner-left-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.banner-left-content h1 {
+    color:  #111;
+    font-family: Quicksand;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 61px;
+}
+
+.span-1 {
+    color:  #FEA301;
+}
+
+.span-2 {
+    color:  #01ACFD;
+}
+
+.banner-left-content p {
+    color:  #111;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.enroll-now-button {
+    display: flex;
+    width: 197px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    background: #111;
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 150% */
+}
+
+
 
 /* responsive style for mobile */
 @media only screen and (max-width: 576px) {
+
     .container {
         width: 100vw;
         padding: 0;
     }
 
+
+
+    /* navbar styles */
     nav {
         border-bottom: 2px solid #FEA301;
         padding: 20px;

@@ -468,6 +468,7 @@ nav {
     background: #FFF;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 19.17px;
 }
 
@@ -714,6 +715,7 @@ nav {
   @media only screen and (max-width: 375px) {
     .other-story-container {
         grid-template-columns:  1fr;
-        width: 100%;
     }
+
+    
   }

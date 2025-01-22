@@ -60,6 +60,54 @@ a {
 /* header section styles */
 
 /* navbar styles */
+.upper-nav {
+    background: #01ACFD;
+}
+
+.upper-nav-layout {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.upper-nav h4 {
+    color:  #FFF;
+    font-family: Quicksand;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    padding-right: 10px;
+    width: 355px;
+}
+
+.upper-nav marquee {
+    color:  #FFF;
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    flex-grow: 1;
+}
+
+.upper-social-links-container {
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+}
+
+.upper-social-links-container {
+    padding-left: 10px;
+}
+
+.upper-social-links-container a img {
+    width: 25px;
+    transition: 0.5s;
+}
+.upper-social-links-container a img:hover{
+    transform: scale(1.1);
+}
+
+
 nav {
     display: flex;
      justify-content: space-between;
@@ -619,6 +667,23 @@ footer {
     .primary-button {
         font-size: 1rem;
         width: 134px;
+    }
+
+    .upper-nav-layout {
+        display: flex;
+        align-items: center;
+        padding: 5px 20px;
+    }
+    
+    .upper-nav h4 {
+       display: none;
+    }
+    
+    
+    
+    .upper-social-links-container {
+        display: none;
+       
     }
 
 
